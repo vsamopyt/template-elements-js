@@ -1,0 +1,87 @@
+/* NORMALIZE */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+.section,
+.header,
+.footer {
+  padding: 26px 0;
+}
+
+.container {
+    max-width: 340px;
+    width: 100%;
+    padding-inline: 20px;
+    margin-inline: auto;
+  }
+
+
+@media (width >= 760px) {
+    .container {
+        max-width: 340px;
+        width: 100%;
+        padding-inline: 20px;
+        margin-inline: auto;
+      }
+    }
+
+@media (width >= 1280px) {
+        .container {
+            max-width: 1320px;
+            width: 100%;
+            padding-inline: 20px;
+            margin-inline: auto;
+          }
+        }    
+ @media (width >= 1440px) {
+            .container {
+                max-width: 1480px;
+                width: 100%;
+                padding-inline: 20px;
+                margin-inline: auto;
+              }
+            }  
