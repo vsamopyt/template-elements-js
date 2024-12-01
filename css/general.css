@@ -60,6 +60,24 @@ button {
   }
 
 
+/* style to take away background fron the button on android */
+button {
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    touch-action: manipulation;
+    user-select: none;
+  }
+  
+  button:focus,
+  button:active {
+    outline: none;
+    box-shadow: none;
+    /* background-color: transparent !important; */
+    background-color: transparent;
+  }
+  
+
+
 @media (width >= 760px) {
     .container {
         max-width: 340px;
