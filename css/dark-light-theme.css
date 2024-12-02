@@ -1,0 +1,69 @@
+button {
+  cursor: pointer;
+  padding: 0;
+}
+
+/* BUTTON-ONE */
+.btn-one-theme {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 36px;
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.btn-one-theme-icon-dark {
+  display: none;
+}
+
+.btn-one-theme-icon-light {
+  display: none;
+}
+
+.schow {
+  display: block;
+}
+
+.btn-one-theme.darkBtn {
+  background-color: black;
+  border: 2px solid red;
+}
+
+
+/* BUTTON-TWO */
+.btn-two-theme {
+    position: fixed;
+    top: 40px;
+    right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 36px;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+
+  .btn-two-theme-icon-dark {
+    display: none;
+    fill:orange;
+  }
+  
+  .btn-two-theme-icon-light {
+    display: none;
+    fill: orange;
+  }
+  
+  .schow {
+    display: block;
+  }
+  
+  .btn-two-theme.darkBtn {
+    background-color: black;
+    border: 2px solid red;
+  }
