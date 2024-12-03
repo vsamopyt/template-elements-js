@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/dark-light-theme.css" />
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <div class="container"></div>
     </header>
@@ -57,48 +57,133 @@
           </p>
         </div>
       </section>
-    
-      <button type="button" class="btn-one-theme">
-        <span class="btn-one-theme-icon btn-one-theme-icon-light schow">☀️</span>
-        <span class="btn-one-theme-icon btn-one-theme-icon-dark">🌙</span>
+
+      <!-- BUTTON ONE -->
+
+      <button type="button" class="btn-one-theme" aria-label="Switch between light and dark themes">
+        <span class="btn-one-theme-icon btn-one-theme-icon-light"
+          >☀️</span
+        >
+        <span class="btn-one-theme-icon btn-one-theme-icon-dark schow">🌙</span>
       </button>
 
-
+      <!-- BUTTON TWO -->
       <button type="button" class="btn-two-theme">
-        <svg width="24" height="24" fill="black" class="btn-two-theme-icon btn-two-theme-icon-light ">
-          <use  href="./images/symbol-defs.svg#icon-iconmonstr-brightness-9">
-          </use>
+        <svg
+          width="24"
+          height="24"
+          fill="black"
+          class="btn-two-theme-icon btn-two-theme-icon-light"
+        >
+          <use
+            href="./images/symbol-defs.svg#icon-iconmonstr-brightness-9"
+          ></use>
         </svg>
-        <svg width="22" height="22" fill="black" class="btn-two-theme-icon btn-two-theme-icon-dark schow">
-            <use  href="./images/symbol-defs.svg#icon-iconmonstr-weather-114">
-            </use>
-          </svg>
- </button>
-
-
-       
-      <button type="button" class="btn-three-theme">
-        <svg width="24" height="24" fill="black" class="btn-three-theme-icon btn-two-theme-icon-light ">
-          <use  href="./images/symbol-defs.svg#icon-iconmonstr-brightness-9">
-          </use>
+        <svg
+          width="22"
+          height="22"
+          fill="black"
+          class="btn-two-theme-icon btn-two-theme-icon-dark schow"
+        >
+          <use
+            href="./images/symbol-defs.svg#icon-iconmonstr-weather-114"
+          ></use>
         </svg>
-        <svg width="22" height="22" fill="black" class="btn-three-theme-icon btn-two-theme-icon-dark schow">
-            <use  href="./images/symbol-defs.svg#icon-iconmonstr-weather-114">
-            </use>
-          </svg>
- </button>
-   
+      </button>
 
-    
+      <!-- BUTTON THREE -->
+
+      <button type="button" class="btn-three-theme" aria-label="Switch between light and dark themes">
+        <div class="btn-three-icon-wrapper btn-three-icon-wrapper-light">
+          <svg
+            width="24"
+            height="24"
+            fill="black"
+            class="btn-three-theme-icon btn-three-theme-icon-light"
+          >
+            <use
+              href="./images/symbol-defs.svg#icon-iconmonstr-brightness-9"
+            ></use>
+          </svg>
+        </div>
+        <div class="btn-three-icon-wrapper btn-three-icon-wrapper-dark active">
+          <svg
+            width="22"
+            height="22"
+            fill="black"
+            class="btn-three-theme-icon btn-three-theme-icon-dark"
+          >
+            <use
+              href="./images/symbol-defs.svg#icon-iconmonstr-weather-114"
+            ></use>
+          </svg>
+        </div>
+      </button>
+
+      <!-- BUTTON FEAR -->
+
+      <button type="button" class="btn-fear-theme" aria-label="Switch between light and dark themes">
+        <div class="btn-fear-icon-wrapper btn-fear-icon-wrapper-light">
+          <svg
+            width="24"
+            height="24"
+            fill="black"
+            class="btn-fear-theme-icon btn-fear-theme-icon-light"
+          >
+            <use
+              href="./images/symbol-defs.svg#icon-iconmonstr-brightness-9"
+            ></use>
+          </svg>
+        </div>
+        <div class="btn-fear-icon-wrapper btn-fear-icon-wrapper-dark active">
+          <svg
+            width="22"
+            height="22"
+            fill="black"
+            class="btn-fear-theme-icon btn-fear-theme-icon-dark"
+          >
+            <use
+              href="./images/symbol-defs.svg#icon-iconmonstr-weather-114"
+            ></use>
+          </svg>
+        </div>
+      </button>
+
+       <!-- BUTTON FIVE -->
+
+       <button type="button" class="btn-five-theme" aria-label="Switch between light and dark themes">
+        <!-- <div class="btn-five-icon-wrapper btn-five-icon-wrapper-light"> -->
+          <!-- <svg
+            width="24"
+            height="24"
+            fill="black"
+            class="btn-fear-theme-icon btn-fear-theme-icon-light"
+          >
+            <use
+              href="./images/symbol-defs.svg#icon-iconmonstr-brightness-9"
+            ></use>
+          </svg>
+        </div> -->
+        <!-- <div class="btn-fear-icon-wrapper btn-fear-icon-wrapper-dark active">
+          <svg
+            width="22"
+            height="22"
+            fill="black"
+            class="btn-fear-theme-icon btn-fear-theme-icon-dark"
+          >
+            <use
+              href="./images/symbol-defs.svg#icon-iconmonstr-weather-114"
+            ></use>
+          </svg>
+        </div> -->
+      </button>
+
     </main>
     <footer class="footer">
       <div class="container"></div>
     </footer>
 
-   
-
-   
-<!-- 
+    <!-- 
     <script type="module" src="./script/main.js"></script> -->
     <script type="module" src="./script/dark-light-theme.js"></script>
   </body>
