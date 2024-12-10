@@ -80,7 +80,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 36px;
+  min-width: 30px;
   aspect-ratio: 1/1;
   border: 1px solid black;
   border-radius: 50%;
@@ -275,5 +275,6 @@ button.btn-five-theme {
  background-repeat: no-repeat;
    background-position: center; 
     /* transform: translateY(-50%); */
+    
  
   }

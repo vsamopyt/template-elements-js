@@ -99,6 +99,10 @@
   }
   
 
+  .is-scroll {
+    overflow-y: hidden;
+  } 
+
   /* .backdrop-item {
     font-size: 20px;
     font-family: var(--font-family-text);

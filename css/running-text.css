@@ -1,0 +1,41 @@
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100%;
+}
+
+.marquee-container {
+margin-bottom: 24px;
+  display: flex;
+  background-color: aqua;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  overflow: hidden;
+}
+
+.marquee-container-white {
+    transform: rotate(1deg);
+}
+
+.marquee {
+  will-change: transform;
+  padding-left: 24px;
+  white-space: nowrap;
+  display: flex;
+  gap: 24px;
+  animation: scroll 9s linear infinite;
+}
+
+.marquee-content {
+  font-size: 36px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+     /* Magic is here. This is the width of the elem with text after rendering the page */
+  100% {
+    transform: translateX(-100%);
+  }
+}
